@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_content container">
+        <a href="index.html"
+          ><img class="logo" src="img/png/Logotip 1.png" alt=""
+        /></a>
+        <form class="header_search" action="">
+          <input class="header_search_input" type="text" placeholder="Search" />
+          <button class="header_search_btn">
+            <img src="img/svg/icons8-поиск 2.svg" alt="" />
+          </button>
+        </form>
+        <div class="burger_menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav>
+          <ul class="nav_list">
+            <li><a href="">Город</a></li>
+            <li><a href="services.html">Услуги</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="personal_container">
+      <p class="personal_name_title">Профиль user129321</p>
+      <section class="personal_area">
+        <div class="personal_info">
+          <img src="img/png/avatar 1.png" alt="" />
+          <div class="personal_more_info">
+            <p class="personal_name">user129321</p>
+            <p class="personal_age">Лет: 19</p>
+            <p class="personal_gender">Мужчина</p>
+            <p class="personal_registr">Пользователь с 16 мая 2023 г.</p>
+            <div class="personal_btns">
+              <button class="personal_btn">Редактировать профиль</button>
+              <button class="personal_btn">Редактировать фотографии</button>
+            </div>
+          </div>
+        </div>
+        <div class="personal_about_me">
+          <p class="personal_title">Обо мне:</p>
+          <p class="personal_description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </section>
+      <section class="diary">
+        <div class="diary_left_block">
+          <p class="diary_title">Дневник питания</p>
+          <div class="diary_info">
+            <span class="diary_title_date"
+              >Дневник питания за: <input type="date"
+            /></span>
+            <div class="diary_info_food">
+              <aside>
+                <p class="diary_food_name">Завтрак</p>
+                <a href="" class="diary_add_food">Добавить блюдо</a>
+              </aside>
+              <aside>
+                <p class="diary_food_name">Обед</p>
+                <a href="" class="diary_add_food">Добавить блюдо</a>
+              </aside>
+              <aside>
+                <p class="diary_food_name">Ужин</p>
+                <a href="" class="diary_add_food">Добавить блюдо</a>
+              </aside>
+              <aside>
+                <p class="diary_food_name">Перекусы</p>
+                <a href="" class="diary_add_food">Добавить блюдо</a>
+              </aside>
+            </div>
+          </div>
+        </div>
+        <div class="diary_right_block">
+          <table cellspacing="0" cellpadding="0" class="diary_table">
+            <tr class="diary_food_info">
+              <td class="diaro_food_white"></td>
+              <td>Калории <span class="diary_food_info_color">kcal</span></td>
+              <td>Углев <br /><span class="diary_food_info_color">g</span></td>
+              <td>Жиры <br /><span class="diary_food_info_color">g</span></td>
+              <td>Белки <br /><span class="diary_food_info_color">g</span></td>
+              <td>Натрий <span class="diary_food_info_color"> mg</span></td>
+              <td>Сахар <br /><span class="diary_food_info_color">g</span></td>
+            </tr>
+            <tr>
+              <td>Итого</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Цель</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Осталось</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </table>
+          <a href="" class="diary_table_btn">Завершить запись</a>
+        </div>
+      </section>
+      <section class="graphic">
+        <div class="graphic_block">
+          <p class="graphic_title">Результаты тренировок</p>
+          <div class="graphic_export">
+            <p class="graphic_report">
+              Выберите отчет
+              <select value="">
+                <option name="" id="">Вес</option>
+                <option name="" id="">Талия</option>
+                <option name="" id="">Бедра</option>
+                <option name="" id="">Калории</option>
+              </select>
+            </p>
+            <a href="" class="graphic_btn">Экспортировать</a>
+          </div>
+          <p class="graphic_report_period">Отчетный период:</p>
+          <ul class="graphic_period">
+            <li><a class="graphic_period_element" href="">7 дней</a></li>
+            <li><a class="graphic_period_element" href="">30 дней</a></li>
+            <li><a class="graphic_period_element" href="">90 дней</a></li>
+            <li><a class="graphic_period_element" href="">180 дней</a></li>
+            <li><a class="graphic_period_element" href="">Прошлый год</a></li>
+          </ul>
+          <div>
+            <canvas id="line-chart"></canvas>
+          </div>
+        </div>
+        <div class="personal_sub">
+          <p class="personal_sub_title">Оплата и подписки:</p>
+          <p class="personal_sub_count">У вас нет подписок</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_content container">
+        <div class="footer_left_block">
+          <a href="index.html"><img class="footer_logo" src="img/png/Logotip 1.png" alt="" /></a>
+          <a class="footer_info" href="">О нас</a>
+          <a class="footer_info" href="index.html#banner">Акции</a>
+        </div>
+        <nav>
+          <ul class="footer_media">
+            <li>
+              <a href=""><img src="img/svg/iconYouTube 1.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="img/svg/iconFB 1.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="img/svg/twitter.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="img/svg/vk.svg" alt="" /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/main.js"></script>
+</html>
